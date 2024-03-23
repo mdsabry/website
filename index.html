@@ -1,0 +1,302 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="./images/shopping.svg">
+    <link rel="stylesheet" href="./css/all.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Online Shopping</title>
+</head>
+
+<body>
+
+    <header >
+        <div class="container pb-md-3 pb-sm-4">
+
+            <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top top-0 left-0">
+                <div class="container">
+                    <a class="navbar-brand text-primary fw-bold fs-2 text-capitalize" href="./index.html">
+                        <img src="./images/online-shopping.png" style="width: 60px;" alt="online-shopping-photo">
+                        Online <span class="text-primary">Shopping</span></a>
+                    <button class="navbar-toggler outline-0" type="button" data-bs-toggle="collapse"
+                        data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent"
+                        aria-expanded="false" aria-label="Toggle navigation">
+                        <span class="navbar-toggler-icon"></span>
+                    </button>
+                    <div class="collapse navbar-collapse justify-content-end align-items-center my-3"
+                        id="navbarSupportedContent">
+                        <form class=" d-flex gap-2">
+                            
+                                <a href="./login.html" class="login-page btn btn-outline-primary w-100">Login</a>
+
+                                <a href="./register.html" class="register-page btn btn-outline-primary w-100 ">Register</a>
+                        </form>
+                    </div>
+                </div>
+            </nav>
+
+        </div>
+
+    </header>
+
+    <main>
+        <div class="container pt-sm-4 mt-md-5 pt-md-5 mt-sm-5">
+            <div class="search-item my-2 d-flex gap-3 d-sm-flex flex-sm-column flex-md-row">
+
+                <div class="input-group">
+                    <select class="form-select form-select-lg bg-light" aria-label="Large select example">
+                        <option selected>Search By Name</option>
+                        <option>Search By Category</option>
+                    </select>
+                </div>
+
+                <div class="input-group">
+                    <span class="input-group-text" id="inputGroup-sizing-default">Search</span>
+                    <input type="text" class="form-control" aria-label="Sizing example input"
+                        aria-describedby="inputGroup-sizing-default">
+                </div>
+
+            </div>
+        </div>
+
+    </main>
+
+    <section>
+
+        <div class="container" id="cards">
+            <div class="childCards row gy-4 mt-1 p-3">
+
+                <!-- <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/tshirt.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold">Product : T-shirt</h6>
+                            <p class="card-text mb-1">Price : 40 $</p>
+                            <p class="card-text">Category : fashion</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+
+                <!-- <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/laptop.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold">Product : Laptop</h6>
+                            <p class="card-text mb-1">Price : 1500 $</p>
+                            <p class="card-text">Category : accessories</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/shoes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title fw-bold">Product : Shoes</h6>
+                            <p class="card-text mb-1">Price : 60 $</p>
+                            <p class="card-text">Category : fashion</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/bag.jpg" class="card-img-top" alt="...">
+                        <div class="card-body ">
+                            <h6 class="card-title fw-bold">Product : T-shirt</h6>
+                            <p class="card-text mb-1">Price : 40 $</p>
+                            <p class="card-text">Category : fashion</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/man-clothes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Product : Laptop</h5>
+                            <p class="card-text mb-1">Price : 1500 $</p>
+                            <p class="card-text">Category : accessories</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/baby.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Product : Shoes</h5>
+                            <p class="card-text mb-1">Price : 60 $</p>
+                            <p class="card-text">Category : fashion</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/women-clothes.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Product : T-shirt</h5>
+                            <p class="card-text mb-1">Price : 40 $</p>
+                            <p class="card-text">Category : fashion</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/shorts.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Product : Laptop</h5>
+                            <p class="card-text mb-1">Price : 1500 $</p>
+                            <p class="card-text">Category : accessories</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/slipper.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Product : Shoes</h5>
+                            <p class="card-text mb-1">Price : 60 $</p>
+                            <p class="card-text">Category : fashion</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/shoes-sport.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Product : Shoes</h5>
+                            <p class="card-text mb-1">Price : 60 $</p>
+                            <p class="card-text">Category : fashion</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/smart-watch.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Product : Shoes</h5>
+                            <p class="card-text mb-1">Price : 60 $</p>
+                            <p class="card-text">Category : fashion</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-3 col-md-6 col-sm-12">
+                    <div class="card item">
+                        <img src="./images/mobile.jpg" class="card-img-top" alt="...">
+                        <div class="card-body">
+                            <h5 class="card-title">Product : Shoes</h5>
+                            <p class="card-text mb-1">Price : 60 $</p>
+                            <p class="card-text">Category : fashion</p>
+                            <div class="info-card d-flex justify-content-between align-items-center">
+                                <a href="#" class="btn btn-primary">Add to cart</a>
+
+                                <a href="#">
+                                    <i class="fa-solid fa-heart text-secondary fs-4"></i>
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div> -->
+
+            </div>
+        </div>
+
+    </section>
+
+
+
+    <script src="./js/all.js"></script>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/script.js"></script>
+</body>
+
+</html>
+
